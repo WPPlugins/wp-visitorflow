@@ -1,0 +1,1877 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_visitorflow\n"
+"POT-Creation-Date: 2017-05-11 11:41+0100\n"
+"PO-Revision-Date: 2017-05-11 11:50+0100\n"
+"Last-Translator: Onno <contact@datacodedesign.de>\n"
+"Language-Team: Onno\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: E:\\Websites\\tagezumfeiern\\wp-content\\plugins\\wp-"
+"visitorflow\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/wp_visitorflow_admin.php:28
+#: includes/admin/wp_visitorflow_admin.php:43
+msgid "WP VisitorFlow"
+msgstr "WP VisitorFlow"
+
+#: includes/admin/wp_visitorflow_admin.php:34
+#: includes/admin/wp_visitorflow_admin.php:49
+#: includes/admin/wp_visitorflow_overview.php:206
+#: includes/admin/wp_visitorflow_website_pages.php:103
+#: includes/admin/wp_visitorflow_website_referrers.php:96
+#: includes/admin/wp_visitorflow_website_referrers.php:337
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:71
+#: includes/functions/wp_visitorflow_print_flow.php:101
+msgid "Flow"
+msgstr "Fluss"
+
+#: includes/admin/wp_visitorflow_admin.php:68
+#: includes/admin/wp_visitorflow_admin.php:122
+#: includes/admin/wp_visitorflow_settings.php:33
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin/wp_visitorflow_admin.php:105
+msgid "VisitorFlow"
+msgstr "VisitorFlow"
+
+#: includes/admin/wp_visitorflow_admin.php:110
+#: includes/admin/wp_visitorflow_admin.php:112
+#: includes/classes/wp_visitorflow-page.class.php:117
+msgid "Overview"
+msgstr "Überblick"
+
+#: includes/admin/wp_visitorflow_admin.php:111
+msgid ""
+"Detailed web analytics and visualization of your website's visitor flow."
+msgstr ""
+"Detailierte Webanalyse und Visualisierung des Besucherflusses auf dieser "
+"Webpräsenz."
+
+#: includes/admin/wp_visitorflow_admin.php:119
+msgid "Full Website Analytics"
+msgstr "Analyse der ganzen Webpräsenz"
+
+#: includes/admin/wp_visitorflow_admin.php:119
+#: includes/classes/wp_visitorflow-page.class.php:118
+msgid "Full Website"
+msgstr "Ganze Webpräsenz"
+
+#: includes/admin/wp_visitorflow_admin.php:120
+msgid "Single Page Analytics"
+msgstr "Analyse einzelner Seiten"
+
+#: includes/admin/wp_visitorflow_admin.php:120
+#: includes/classes/wp_visitorflow-page.class.php:119
+msgid "Single Page"
+msgstr "Einzelne Seite"
+
+#: includes/admin/wp_visitorflow_admin.php:121
+#: includes/admin/wp_visitorflow_export.php:8
+#: includes/admin/wp_visitorflow_export.php:22
+#: includes/admin/wp_visitorflow_export_table.php:147
+msgid "Data Export"
+msgstr "Datenexport"
+
+#: includes/admin/wp_visitorflow_admin.php:142
+msgid "No data yet."
+msgstr "Bisher keine Daten."
+
+#: includes/admin/wp_visitorflow_admin.php:143
+msgid "This is probably due to a fresh installation."
+msgstr "Dies liegt vermutlich an der noch neuen Installation des Plugins."
+
+#: includes/admin/wp_visitorflow_admin.php:145
+msgid ""
+"Please note that by default no visitor data is stored originating from admin "
+"pages or from administrators visiting your website. You can change this "
+"settings in the <a class=\"wpvf\" href=\"?"
+"page=wpvf_admin_settings&tab=storing\">settings section</a>."
+msgstr ""
+"Zu beachten ist, dass in der Voreinstellung keine Besucherdaten gepeichert "
+"werden, die von Admin-Seiten oder von durch Admins besuchte Seiten stammen. "
+"Dies kann in den <a class=\"wpvf\" href=\"?"
+"page=wpvf_admin_settings&tab=storing\">Einstellungen</a> geändert werden."
+
+#: includes/admin/wp_visitorflow_admin.php:207
+#: includes/admin/wp_visitorflow_admin.php:339
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:31
+msgid "Visitor Flow"
+msgstr "Besucherfluss"
+
+#: includes/admin/wp_visitorflow_admin.php:208
+#: includes/admin/wp_visitorflow_overview.php:242
+#: includes/admin/wp_visitorflow_overview.php:249
+msgid "Visitors"
+msgstr "Besucher"
+
+#: includes/admin/wp_visitorflow_admin.php:209
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:45
+msgid "Referrers"
+msgstr "Verweisende Seiten"
+
+#: includes/admin/wp_visitorflow_admin.php:210
+msgid "Visited Pages"
+msgstr "Besuchte Seiten"
+
+#: includes/admin/wp_visitorflow_admin.php:215
+msgid "Website Visitors"
+msgstr "Seitenbesucher"
+
+#: includes/admin/wp_visitorflow_admin.php:216
+msgid ""
+"Distribution of remote client's browsers and operation systems and a "
+"detailed list of recent visitors"
+msgstr ""
+"Verteilung von Browsern und Betriebssystemen sowie eine detailierte Liste "
+"der letzten Webseitenbesucher"
+
+#: includes/admin/wp_visitorflow_admin.php:220
+msgid "Website Referrers"
+msgstr "Verweisende Webseiten"
+
+#: includes/admin/wp_visitorflow_admin.php:221
+msgid "The top referrers to your website."
+msgstr "Häufigste Verweise auf diese Webpräsenz"
+
+#: includes/admin/wp_visitorflow_admin.php:225
+msgid "Website Pages"
+msgstr "Webseiten"
+
+#: includes/admin/wp_visitorflow_admin.php:226
+msgid "The most visited pages on your website."
+msgstr "Am häufigsten besuchte Seiten"
+
+#: includes/admin/wp_visitorflow_admin.php:230
+msgid "Website Visitor Flow"
+msgstr "Besucherfluss auf der ganzen Webpräsenz"
+
+#: includes/admin/wp_visitorflow_admin.php:231
+msgid ""
+"The total visitor flow: step-by-step diagramm of the visitors interactions "
+"with your website"
+msgstr ""
+"Der gesamte Besucherfluss: Schritt-für-Schritt-Diagramm aller Webseiten-"
+"Interaktionen"
+
+#: includes/admin/wp_visitorflow_admin.php:319
+msgid "Selected post/page does not exist or has not been visited yet."
+msgstr ""
+"Die ausgewählte Seite bzw. der ausgewählte Beitrag existiert nicht oder "
+"wurde bisher noch nicht besucht."
+
+#: includes/admin/wp_visitorflow_admin.php:340
+msgid "Timeline"
+msgstr "Zeitdiagramm"
+
+#: includes/admin/wp_visitorflow_admin.php:353
+msgid "Single Page Timeline Plot"
+msgstr "Zeitdiagramm einer einzelnen Seite"
+
+#: includes/admin/wp_visitorflow_admin.php:354
+#, php-format
+msgid "Page views for page <strong>%s</strong>"
+msgstr "Aufrufe von Seite <strong>%s</strong>"
+
+#: includes/admin/wp_visitorflow_admin.php:359
+msgid "Single Page Visitor Flow"
+msgstr "Besucherfluss für eine einzelne Webseite"
+
+#: includes/admin/wp_visitorflow_admin.php:360
+#, php-format
+msgid "Visitor Flow towards and from page <strong>%s</strong>"
+msgstr "Besucherfluss zu und von Webseite <strong>%s</strong>"
+
+#: includes/admin/wp_visitorflow_export.php:5
+#: includes/admin/wp_visitorflow_export_app.php:3
+#: includes/admin/wp_visitorflow_export_table.php:3
+#: includes/admin/wp_visitorflow_overview.php:73
+#: includes/admin/wp_visitorflow_overview.php:139
+#: includes/admin/wp_visitorflow_settings.php:5
+#: includes/admin/wp_visitorflow_settings_general.php:3
+#: includes/admin/wp_visitorflow_settings_maintenance.php:3
+#: includes/admin/wp_visitorflow_settings_privacy.php:3
+#: includes/admin/wp_visitorflow_settings_storing.php:3
+#: includes/functions/wp_visitorflow_getBotsTable.php:5
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:5
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:6
+#: includes/functions/wp_visitorflow_getLatestUAStringsTable.php:5
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:5
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:5
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast keine Berechtigung zum Aufrufen dieser Seite."
+
+#: includes/admin/wp_visitorflow_export.php:9
+msgid "App"
+msgstr "App"
+
+#: includes/admin/wp_visitorflow_export.php:23
+msgid "Export recorded data to csv tables or to the WP VisitorFlow app."
+msgstr ""
+"Aufgezeichnete Daten als CSV-Datei oder zur WP VisitorFlow-App exportieren"
+
+#: includes/admin/wp_visitorflow_export_app.php:14
+msgid "Not available."
+msgstr "Nicht verfügbar."
+
+#: includes/admin/wp_visitorflow_export_app.php:15
+msgid "WordPress version 4.7 or higher required to use this functionality."
+msgstr ""
+"Um diese Funktion nutzen zu können, ist WordPress in einer Version ab 4.7 "
+"notwendig,"
+
+#: includes/admin/wp_visitorflow_export_app.php:49
+msgid "Do you really want to remove the access from this device?"
+msgstr "Soll diesem Gerät wirklich der Zugang gesperrt werden?"
+
+#: includes/admin/wp_visitorflow_export_app.php:53
+msgid "Yes, remove it!"
+msgstr "Ja, los!"
+
+#: includes/admin/wp_visitorflow_export_app.php:56
+#: includes/admin/wp_visitorflow_settings_maintenance.php:25
+#: includes/admin/wp_visitorflow_settings_maintenance.php:61
+#: includes/admin/wp_visitorflow_settings_maintenance.php:129
+#: includes/admin/wp_visitorflow_settings_maintenance.php:155
+#: includes/admin/wp_visitorflow_settings_maintenance.php:214
+#: includes/admin/wp_visitorflow_website_visitors.php:67
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/admin/wp_visitorflow_export_app.php:72
+msgid "Device access removed."
+msgstr "Geräte-Zugang entfernt."
+
+#: includes/admin/wp_visitorflow_export_app.php:79
+#: includes/admin/wp_visitorflow_export_app.php:119
+msgid "Access from Mobile App"
+msgstr "Zugang durch die mobile App"
+
+#: includes/admin/wp_visitorflow_export_app.php:89
+msgid "Enable App Access"
+msgstr "App-Zugang freigeben"
+
+#: includes/admin/wp_visitorflow_export_app.php:92
+#: includes/admin/wp_visitorflow_settings_general.php:61
+#: includes/admin/wp_visitorflow_settings_privacy.php:43
+#: includes/admin/wp_visitorflow_settings_privacy.php:70
+#: includes/admin/wp_visitorflow_settings_storing.php:96
+#: includes/admin/wp_visitorflow_settings_storing.php:105
+#: includes/admin/wp_visitorflow_settings_storing.php:144
+#: includes/admin/wp_visitorflow_settings_storing.php:188
+#, php-format
+msgid "Active (default: %s)"
+msgstr "aktiv (voreingestellt: %s)"
+
+#: includes/admin/wp_visitorflow_export_app.php:92
+#: includes/admin/wp_visitorflow_settings_general.php:61
+#: includes/admin/wp_visitorflow_settings_privacy.php:43
+#: includes/admin/wp_visitorflow_settings_privacy.php:70
+#: includes/admin/wp_visitorflow_settings_storing.php:96
+#: includes/admin/wp_visitorflow_settings_storing.php:105
+#: includes/admin/wp_visitorflow_settings_storing.php:144
+#: includes/admin/wp_visitorflow_settings_storing.php:188
+msgid "active"
+msgstr "aktiv"
+
+#: includes/admin/wp_visitorflow_export_app.php:92
+#: includes/admin/wp_visitorflow_settings_general.php:61
+#: includes/admin/wp_visitorflow_settings_privacy.php:43
+#: includes/admin/wp_visitorflow_settings_privacy.php:70
+#: includes/admin/wp_visitorflow_settings_storing.php:96
+#: includes/admin/wp_visitorflow_settings_storing.php:105
+#: includes/admin/wp_visitorflow_settings_storing.php:144
+#: includes/admin/wp_visitorflow_settings_storing.php:188
+msgid "inactive"
+msgstr "inaktiv"
+
+#: includes/admin/wp_visitorflow_export_app.php:93
+msgid ""
+"Enabling access to WP VisitorFlow data from the mobile WordPress VisitorFlow "
+"app (Android only)."
+msgstr ""
+"Zugang zu den WP-VisitorFlow-Daten durch die mobile App \"WordPress "
+"VisitorFlow\" freigeben (nur für Android verfügbar)."
+
+#: includes/admin/wp_visitorflow_export_app.php:98
+msgid "Hint"
+msgstr "Hinweis"
+
+#: includes/admin/wp_visitorflow_export_app.php:98
+msgid ""
+"Access from the mobile app to this website will be included into the "
+"recorded statistics."
+msgstr ""
+"Anfragen durch die mobile App können auch in die Webseiten-Statistiken "
+"eingehen."
+
+#: includes/admin/wp_visitorflow_export_app.php:99
+msgid ""
+"To prevent this, just include the string \"/index.php/wp-json/wp-visitorflow"
+"\" to the <a class=\"wpvf\" href=\"?page=wpvf_admin_settings&tab=storing"
+"\">pages URL exclusion list</a>."
+msgstr ""
+"Um dies zu verhindern, einfach die Zeichenkette  \"/index.php/wp-json/wp-"
+"visitorflow\" zur  <a class=\"wpvf\" href=\"?"
+"page=wpvf_admin_settings&tab=storing\">Seiten-URL-Auschlussliste</a> "
+"hinzufügen."
+
+#: includes/admin/wp_visitorflow_export_app.php:123
+msgid "Remote Clients"
+msgstr "Mobile Geräte"
+
+#: includes/admin/wp_visitorflow_export_app.php:129
+msgid ""
+"Remote client(s) with access to WP VisitorFlow statistics on this website:"
+msgstr ""
+"Alle mobilen Geräte mit Zugang zu den WP VisitorFlow-Statistiken auf dieser "
+"Webseite:"
+
+#: includes/admin/wp_visitorflow_export_app.php:132
+msgid "No."
+msgstr "Nr."
+
+#: includes/admin/wp_visitorflow_export_app.php:133
+msgid "Registered since"
+msgstr "Registriert am"
+
+#: includes/admin/wp_visitorflow_export_app.php:134
+msgid "Manufacturer"
+msgstr "Hersteller"
+
+#: includes/admin/wp_visitorflow_export_app.php:135
+msgid "Model"
+msgstr "Modell"
+
+#: includes/admin/wp_visitorflow_export_app.php:136
+msgid "Platform"
+msgstr "Betriebssystem-Platform"
+
+#: includes/admin/wp_visitorflow_export_app.php:137
+msgid "Version"
+msgstr "Betriebssystems-Version"
+
+#: includes/admin/wp_visitorflow_export_app.php:138
+msgid "Device UUID"
+msgstr "Geräte-UUID"
+
+#: includes/admin/wp_visitorflow_export_app.php:139
+#: includes/admin/wp_visitorflow_website_visitors.php:321
+msgid "Action"
+msgstr "Aktion"
+
+#: includes/admin/wp_visitorflow_export_app.php:162
+msgid "Remove access"
+msgstr "Zugang entfernen"
+
+#: includes/admin/wp_visitorflow_export_app.php:174
+msgid "No remote client with access yet."
+msgstr "Bisher hat kein Gerät Zugang."
+
+#: includes/admin/wp_visitorflow_export_app.php:208
+msgid "Scan this code"
+msgstr "Diesen Code scannen"
+
+#: includes/admin/wp_visitorflow_export_app.php:219
+msgid "How to:"
+msgstr "Wie funktioniert das?"
+
+#: includes/admin/wp_visitorflow_export_app.php:222
+msgid "How to receive this website's statistics on your mobile device:"
+msgstr ""
+"So können die WP VisitorFlow-Daten auf einem mobilen Gerät betrachtet werden:"
+
+#: includes/admin/wp_visitorflow_export_app.php:225
+msgid ""
+"Download and install the Android app \"WP VisitorFlow\" on your mobile "
+"device."
+msgstr ""
+"Die Android-App \"WP VisitorFlow\" herunterladen und auf dem mobilen Gerät "
+"installieren."
+
+#: includes/admin/wp_visitorflow_export_app.php:232
+msgid ""
+"Generate a code containing this website's URL and an access token for the "
+"mobile app:"
+msgstr ""
+"Einen Code generieren, der die URL dieser Webseite sowie einen Zugangscode "
+"für die App enthält:"
+
+#: includes/admin/wp_visitorflow_export_app.php:237
+msgid "Generate Code"
+msgstr "Code generieren"
+
+#: includes/admin/wp_visitorflow_export_app.php:241
+msgid "You can also enter this code manually:"
+msgstr "Dieser Code kann alternativ auch per Hand eingegeben werden:"
+
+#: includes/admin/wp_visitorflow_export_app.php:246
+msgid "Website's URL"
+msgstr "Webseiten-URL"
+
+#: includes/admin/wp_visitorflow_export_app.php:247
+msgid "Token"
+msgstr "Zugangscode"
+
+#: includes/admin/wp_visitorflow_export_app.php:261
+msgid "In app: Add access to this website by scanning the generated code."
+msgstr ""
+"In der App: Durch das Einscannen dieses Codes den Zugang zu dieser Webseite "
+"freigeben."
+
+#: includes/admin/wp_visitorflow_export_app.php:273
+msgid "This code is valid for "
+msgstr "Dieser Code ist noch gültig für "
+
+#: includes/admin/wp_visitorflow_export_app.php:273
+#: includes/admin/wp_visitorflow_flow-per-page.php:505
+#: includes/admin/wp_visitorflow_flow-per-step.php:945
+msgid "seconds"
+msgstr "Sekunden"
+
+#: includes/admin/wp_visitorflow_export_table.php:67
+#: includes/admin/wp_visitorflow_settings_logfile.php:38
+#: includes/admin/wp_visitorflow_website_referrers.php:358
+#: includes/admin/wp_visitorflow_website_visitors.php:320
+msgid "Date/Time"
+msgstr "Datum/Zeit"
+
+#: includes/admin/wp_visitorflow_export_table.php:68
+#: includes/admin/wp_visitorflow_website_visitors.php:311
+msgid "Agent"
+msgstr "User-Agent (Browser)"
+
+#: includes/admin/wp_visitorflow_export_table.php:69
+#: includes/admin/wp_visitorflow_website_visitors.php:312
+msgid "Agent Version"
+msgstr "User-Agent-Version"
+
+#: includes/admin/wp_visitorflow_export_table.php:70
+#: includes/admin/wp_visitorflow_website_visitors.php:313
+msgid "Agent Engine"
+msgstr "Agent-Engine"
+
+#: includes/admin/wp_visitorflow_export_table.php:71
+#: includes/admin/wp_visitorflow_website_visitors.php:314
+msgid "OS"
+msgstr "Betriebssystem"
+
+#: includes/admin/wp_visitorflow_export_table.php:72
+#: includes/admin/wp_visitorflow_website_visitors.php:315
+msgid "OS Version"
+msgstr "Betriebssystems-Version"
+
+#: includes/admin/wp_visitorflow_export_table.php:73
+#: includes/admin/wp_visitorflow_website_visitors.php:316
+msgid "OS Platform"
+msgstr "Betriebssystem-Platform"
+
+#: includes/admin/wp_visitorflow_export_table.php:74
+#: includes/admin/wp_visitorflow_website_visitors.php:317
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: includes/admin/wp_visitorflow_export_table.php:75
+msgid "Visit Step"
+msgstr "Besuchsschritt"
+
+#: includes/admin/wp_visitorflow_export_table.php:76
+msgid "Post/Page ID"
+msgstr "Beitrag/Seiten-ID"
+
+#: includes/admin/wp_visitorflow_export_table.php:77
+msgid "Post/Page Title"
+msgstr "Beitrag/Seiten-Titel"
+
+#: includes/admin/wp_visitorflow_export_table.php:85
+#: includes/admin/wp_visitorflow_website_visitors.php:164
+#: includes/functions/wp_visitorflow_print_flow.php:77
+msgid "encrypted"
+msgstr "verschlüsselt"
+
+#: includes/admin/wp_visitorflow_export_table.php:150
+msgid ""
+"Data export for the recorded page view statistics as a CSV raw data table."
+msgstr "Datenexport der gespeicherten Seitenaufrufe als CSV-Rohdaten-Datei."
+
+#: includes/admin/wp_visitorflow_export_table.php:152
+msgid "Select year and month for data export:"
+msgstr "Jahr und Monat für den Datenexport auswählen:"
+
+#: includes/admin/wp_visitorflow_export_table.php:155
+msgid "Create data table"
+msgstr "Daten-Tabelle generieren"
+
+#: includes/admin/wp_visitorflow_export_table.php:157
+msgid "Format \"YYYY-MM\" for older browsers"
+msgstr "Format \"YYYY-MM\", falls ein älterer Browser verwendet wird"
+
+#: includes/admin/wp_visitorflow_export_table.php:165
+msgid "Result"
+msgstr "Ergebnis"
+
+#: includes/admin/wp_visitorflow_export_table.php:166
+msgid "Download ZIP File"
+msgstr "Download als ZIP-Datei"
+
+#: includes/admin/wp_visitorflow_export_table.php:173
+msgid "Download CSV File"
+msgstr "Download als CSV-Datei"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:80
+msgid "No incoming flow to this page in the selected time interval."
+msgstr ""
+"Kein eingehender Besucherfluss zu dieser Seite im ausgewählten Zeitraum."
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:84
+msgid "No outgoing flow from this page in the selected time interval."
+msgstr ""
+"Kein ausgehender Besucherfluss von dieser Seite im ausgewählten Zeitraum."
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:90
+#, php-format
+msgid ""
+"%s incoming pages with threshold below %s clicks aggregated to \"Other pages"
+"\"."
+msgstr ""
+"%s eingehende Seiten liegen unter der Grenze von %s Aufrufen und wurden "
+"zusammengefasst unter  \"Weitere Seiten\"."
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:95
+#, php-format
+msgid ""
+"%s outgoing pages with threshold below %s clicks aggregated to \"Other pages"
+"\"."
+msgstr ""
+"%s ausgehende Seiten liegen unter der Grenze von %s Aufrufen und wurden "
+"zusammengefasst unter  \"Weitere Seiten\"."
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:100
+#: includes/admin/wp_visitorflow_flow-per-page.php:115
+#: includes/admin/wp_visitorflow_flow-per-step.php:535
+msgid "Show all pages"
+msgstr "Zusammenfassung aufheben"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:120
+#: includes/admin/wp_visitorflow_flow-per-step.php:540
+msgid "Show Top 50 only"
+msgstr "Zeige nur Top 50"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:125
+#: includes/admin/wp_visitorflow_flow-per-step.php:545
+msgid "Show Top 40 only"
+msgstr "Zeige nur Top 40"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:130
+#: includes/admin/wp_visitorflow_flow-per-step.php:550
+msgid "Show Top 30 only"
+msgstr "Zeige nur Top 30"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:135
+#: includes/admin/wp_visitorflow_flow-per-step.php:555
+msgid "Show Top 20 only"
+msgstr "Zeige nur Top 20"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:140
+#: includes/admin/wp_visitorflow_flow-per-step.php:560
+msgid "Show Top 10 only"
+msgstr "Zeige nur Top 10"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:170
+#: includes/admin/wp_visitorflow_flow-per-step.php:565
+msgid "Zoom in"
+msgstr "Vergrößern"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:175
+#: includes/admin/wp_visitorflow_flow-per-step.php:570
+msgid "Zoom out"
+msgstr "Verkleinern"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:337
+#, php-format
+msgid "Summary for Page \"%s\""
+msgstr "Zusammenfassung für Seite \"%s\""
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:340
+msgid "Incoming page hits"
+msgstr "Eingehende Seitenaufrufe"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:344
+msgid "Outgoing page hits"
+msgstr "Ausgehende Seitenaufrufe"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:348
+msgid "Page views per day"
+msgstr "Seitenaufrufe pro Tag"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:352
+msgid "Page View Duration"
+msgstr "Dauer des Seitenaufrufs"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:356
+msgid "Exit rate"
+msgstr "Absprungrate"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:505
+#: includes/admin/wp_visitorflow_flow-per-step.php:945
+msgid "page view duration"
+msgstr "Seitenaufrufdauer"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:509
+#: includes/admin/wp_visitorflow_flow-per-step.php:953
+msgid "Coming from an external website."
+msgstr "Von externer Seite kommend"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:511
+#: includes/admin/wp_visitorflow_flow-per-step.php:955
+msgid ""
+"Coming from an unknown external source, e.g. a bookmark or direct enter."
+msgstr ""
+"Von unbekannter Quelle kommend, z.B. direkter Aufruf oder über ein "
+"Lesezeichen."
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:517
+#: includes/admin/wp_visitorflow_flow-per-page.php:566
+#: includes/admin/wp_visitorflow_flow-per-step.php:942
+#: includes/admin/wp_visitorflow_flow-per-step.php:978
+msgid "of all clicks at this step"
+msgstr "aller Klicks an diesem Schritt"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:549
+#: includes/admin/wp_visitorflow_flow-per-step.php:421
+msgid "Other pages"
+msgstr "Weitere Seiten"
+
+#: includes/admin/wp_visitorflow_flow-per-page.php:567
+#, php-format
+msgid "(includes %s pages with clicks below the threshold)"
+msgstr "(enthält %s Seitenaufrufe unter dem Genzwert)"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:425
+msgid "Other User Agents"
+msgstr "Andere User-Agents (Browser)"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:428
+msgid "Other User Agents/Versions"
+msgstr "Andere User-Agents/Versionen"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:431
+msgid "Other Operation Systems"
+msgstr "Andere Betriebssysteme"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:434
+msgid "Other Operation Systems/Versions"
+msgstr "Andere Betriebssysteme/Versionen"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:437
+msgid "Other Operation Systems/User Agents"
+msgstr "Andere User Agents/Betriebssysteme"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:485
+msgid "First step"
+msgstr "Erster Schritt"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:502
+msgid "Last step"
+msgstr "Letzter Schritt"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:514
+#: includes/admin/wp_visitorflow_flow-per-step.php:605
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:174
+msgid "Go"
+msgstr "Los"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:522
+msgid "Filter data"
+msgstr "Datenfilter:"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:524
+msgid "on"
+msgstr "an"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:529
+msgid "off"
+msgstr "aus"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:533
+msgid "Pages per step"
+msgstr "Dargestellte Seitenanzahl"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:586
+msgid "Show only:"
+msgstr "Zeige nur Folgende:"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:633
+#: includes/admin/wp_visitorflow_singlepage_timeline.php:48
+#: includes/admin/wp_visitorflow_website_pages.php:50
+#: includes/admin/wp_visitorflow_website_referrers.php:105
+#: includes/admin/wp_visitorflow_website_visitors.php:113
+msgid "No data found in the selected timeframe."
+msgstr "Keine Daten für den gewählten Zeitraum vorhanden."
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:744
+#: includes/admin/wp_visitorflow_website_visitors.php:187
+msgid "User Agents"
+msgstr "User-Agent (Browser)"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:747
+msgid "User Agent Versions"
+msgstr "Browser-Version"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:750
+#: includes/admin/wp_visitorflow_website_visitors.php:219
+msgid "Operation Systems"
+msgstr "Betriebssysteme"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:753
+msgid "Operation System Versions"
+msgstr "Betriebssystemversionen"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:756
+msgid "Operation Systems/User Agents"
+msgstr "Betriebssystem/Browser"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:787
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:790
+msgid "Step on your Website"
+msgstr "Schritt auf Deiner Webpräsenz"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:791
+#: includes/admin/wp_visitorflow_overview.php:174
+#: includes/admin/wp_visitorflow_website_pages.php:218
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:19
+#: includes/functions/wp_visitorflow_getLatestUAStringsTable.php:30
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:59
+msgid "Page Views"
+msgstr "Seitenaufrufe"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:792
+msgid "Exit Rate"
+msgstr "Absprungrate"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:792
+msgid " (in %)"
+msgstr "(in %)"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:940
+msgid "click"
+msgstr "Klick"
+
+#: includes/admin/wp_visitorflow_flow-per-step.php:940
+msgid "clicks"
+msgstr "Klicks"
+
+#: includes/admin/wp_visitorflow_overview.php:10
+msgid "Quick Answers to Routine Inquiries"
+msgstr "Schnelle Antworten auf Routineabfragen"
+
+#: includes/admin/wp_visitorflow_overview.php:11
+msgid "Short Summary"
+msgstr "Kurzer Überblick"
+
+#: includes/admin/wp_visitorflow_overview.php:12
+msgid "Page Views and Visits in the Last 30 Days"
+msgstr "Seitenaufrufe und Besuche innerhalb der letzten 30 Tage"
+
+#: includes/admin/wp_visitorflow_overview.php:13
+msgid "Latest Search Keys Words"
+msgstr "Letzte Suchbegriffe"
+
+#: includes/admin/wp_visitorflow_overview.php:14
+msgid "Recorded Bot Visits"
+msgstr "aufgezeichnete Bot-Besuche"
+
+#: includes/admin/wp_visitorflow_overview.php:15
+msgid "Excluded Page Views"
+msgstr "Ausgeschlossene Seitenaufrufe"
+
+#: includes/admin/wp_visitorflow_overview.php:16
+#: includes/admin/wp_visitorflow_settings_maintenance.php:238
+msgid "Database Summary"
+msgstr "Zusammenfassung der Aufzeichnungen"
+
+#: includes/admin/wp_visitorflow_overview.php:17
+msgid "Most Visited Pages last 7 Days"
+msgstr "Am häufigsten besuchte Seiten der letzten 7 Tagen"
+
+#: includes/admin/wp_visitorflow_overview.php:18
+msgid "Latest HTTP User Agent Strings"
+msgstr "Letzte HTTP User-Agent-Strings"
+
+#: includes/admin/wp_visitorflow_overview.php:100
+#: includes/functions/wp_visitorflow_rest_api.php:210
+msgid "Visits"
+msgstr "Besuche"
+
+#: includes/admin/wp_visitorflow_overview.php:117
+#: includes/admin/wp_visitorflow_overview.php:256
+#: includes/admin/wp_visitorflow_overview.php:263
+#: includes/functions/wp_visitorflow_rest_api.php:227
+msgid "Page views"
+msgstr "Seitenaufrufe"
+
+#: includes/admin/wp_visitorflow_overview.php:175
+#: includes/admin/wp_visitorflow_website_pages.php:219
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:115
+msgid "Page"
+msgstr "Seite"
+
+#: includes/admin/wp_visitorflow_overview.php:176
+#: includes/functions/wp_visitorflow_getLatestUAStringsTable.php:31
+msgid "Last Visit"
+msgstr "Letzter Besuch"
+
+#: includes/admin/wp_visitorflow_overview.php:207
+#: includes/admin/wp_visitorflow_settings_logfile.php:25
+#: includes/admin/wp_visitorflow_website_referrers.php:318
+#: includes/admin/wp_visitorflow_website_visitors.php:149
+#: includes/functions/wp_visitorflow_getBotsTable.php:26
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:19
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:28
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:48
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:102
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:139
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:164
+#: includes/functions/wp_visitorflow_getLatestUAStringsTable.php:48
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:49
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: includes/admin/wp_visitorflow_overview.php:243
+#: includes/admin/wp_visitorflow_overview.php:257
+msgid "last 24h"
+msgstr "letzte 24h"
+
+#: includes/admin/wp_visitorflow_overview.php:250
+#: includes/admin/wp_visitorflow_overview.php:264
+msgid "last 7 days"
+msgstr "letzte 7 Tage"
+
+#: includes/admin/wp_visitorflow_overview.php:319
+msgid "since DB start on"
+msgstr "seit DB-Start am"
+
+#: includes/admin/wp_visitorflow_overview.php:326
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:53
+msgid "Recorded bots visits"
+msgstr "Aufgezeichnete Bot-Besuche"
+
+#: includes/admin/wp_visitorflow_overview.php:327
+#, php-format
+msgid "%s per day"
+msgstr "%s pro Tag"
+
+#: includes/admin/wp_visitorflow_settings.php:16
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/admin/wp_visitorflow_settings.php:17
+msgid "Recording Settings"
+msgstr "Speicherung"
+
+#: includes/admin/wp_visitorflow_settings.php:18
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: includes/admin/wp_visitorflow_settings.php:19
+msgid "Maintenance"
+msgstr "Wartung"
+
+#: includes/admin/wp_visitorflow_settings.php:20
+msgid "Logfile"
+msgstr "Logdatei"
+
+#: includes/admin/wp_visitorflow_settings_general.php:55
+msgid "Visitor Flow Recording"
+msgstr "Aufzeichnung des Besucherflusses"
+
+#: includes/admin/wp_visitorflow_settings_general.php:58
+msgid "Record Visitor Flow"
+msgstr "Besucherfluss aufzeichnen"
+
+#: includes/admin/wp_visitorflow_settings_general.php:62
+msgid "This is the <em>main swith</em> :-) "
+msgstr "Dies ist der <em>Hautpschalter</em> :-) "
+
+#: includes/admin/wp_visitorflow_settings_general.php:63
+msgid ""
+"If active, the visitor flow will be recorded. If inactive, no data will be "
+"collected."
+msgstr ""
+"Nur wenn diese Einstellung aktiv ist, wird der Besucherfluss aufgezeichnet. "
+"Ansonsten werden keinerlei Daten gespeichert."
+
+#: includes/admin/wp_visitorflow_settings_general.php:68
+msgid "Minimum time between visits"
+msgstr "Minimale Zeit zwischen Besuchen"
+
+#: includes/admin/wp_visitorflow_settings_general.php:72
+#, php-format
+msgid "minutes (default: %s minutes)"
+msgstr "Minuten  (voreingestellt: %s Minuten)"
+
+#: includes/admin/wp_visitorflow_settings_general.php:73
+msgid ""
+"The minimum time period between two visits by a remote client that defines a "
+"new visitor. "
+msgstr ""
+"Die minimale Zeitspanne, die zwischen zwei Besuchen liegen muss, um den "
+"gleichen Besucher als neuen Besucher zu identifizieren."
+
+#: includes/admin/wp_visitorflow_settings_general.php:74
+msgid ""
+"Is the time between two visits by a remote client shorter than this period, "
+"the client will be counted as the same visitor. Is it longer, he or she will "
+"be counted as a new visitor."
+msgstr ""
+"Ist die Zeit zwischen zwei Besuchen vom gleichen Besucher kleiner als diese "
+"Zeitspanne, wird es als derselbe Besuch gezählt. Ist die Zeit länger, wird "
+"der Besuch als von einem neuen Besucher stammend gezählt."
+
+#: includes/admin/wp_visitorflow_settings_general.php:78
+msgid "Flow Data Storage Time"
+msgstr "Aufbewahrungsdauer für Besucherflussdaten"
+
+#: includes/admin/wp_visitorflow_settings_general.php:81
+#, php-format
+msgid "days (default: %s days)"
+msgstr "Tage (voreingestellt: %s Tage)"
+
+#: includes/admin/wp_visitorflow_settings_general.php:82
+msgid ""
+"Detailed flow data is stored only for this amount of days. Older data will "
+"be automatically deleted to keep the database lean and the webpage "
+"performance high."
+msgstr ""
+"Die detailierten Besucherfluss-Daten wird nur innerhalb dieser Zeitspanne "
+"gespeichert. Ältere Daten werden automatisch gelöscht, um die Datenbank "
+"klein zu halten."
+
+#: includes/admin/wp_visitorflow_settings_general.php:83
+msgid ""
+"This affects only the detailed flow data such as information about the user "
+"agents, operation systems and click-paths. Aggregated data such as daily "
+"page hit counts will not be affected."
+msgstr ""
+"Dies betrifft nur die detailierten Besucherflussdaten wie die Informationen "
+"über die verwendeten Browser, Betriebssysteme und die Besucherpfade. "
+"Aggregierte Daten wie die Seitenaufrufe pro Tag sind davon nicht betroffen."
+
+#: includes/admin/wp_visitorflow_settings_general.php:121
+msgid "Minimum User Access Levels"
+msgstr "Minimaler Benutzerzugang"
+
+#: includes/admin/wp_visitorflow_settings_general.php:126
+msgid "Attention!"
+msgstr "Achtung!"
+
+#: includes/admin/wp_visitorflow_settings_general.php:127
+msgid ""
+"Make sure to chose only access levels for which you have access. Otherwise "
+"you would exclude yourself from this admin area."
+msgstr ""
+"Nur Benutzer mit den hier eingestellten Berechtigungen haben auch Zugang zum "
+"Adminbereich von WP-Visitorflow."
+
+#: includes/admin/wp_visitorflow_settings_general.php:131
+msgid "Access to WP VisitorFlow data and visualization"
+msgstr "Zugang zu WP VisitorFlow-Daten und -Visualisierungen"
+
+#: includes/admin/wp_visitorflow_settings_general.php:134
+#: includes/admin/wp_visitorflow_settings_general.php:153
+msgid "Default:"
+msgstr "Voreingestellt:"
+
+#: includes/admin/wp_visitorflow_settings_general.php:150
+msgid "Access to WP VisitorFlow settings section"
+msgstr "Zugang zu den  WP VisitorFlow-Einstellungen"
+
+#: includes/admin/wp_visitorflow_settings_general.php:158
+#, php-format
+msgid "See the %s for details on capability levels."
+msgstr "Auf der %s finden sich weitere Informationen."
+
+#: includes/admin/wp_visitorflow_settings_general.php:158
+msgid "WordPress Roles and Capabilities page"
+msgstr "WordPress-Seite zu Rollen und -Zugangsmöglichkeiten"
+
+#: includes/admin/wp_visitorflow_settings_general.php:159
+msgid ""
+"Hint: manage_network = Super Admin Network, manage_options = Administrator, "
+"edit_others_posts = Editor, publish_posts = Author, edit_posts = "
+"Contributor, read = Everyone."
+msgstr ""
+"Hinweis: manage_network = Super Admin Network, manage_options = "
+"Administrator, edit_others_posts = Redakteure, publish_posts = Autoren, "
+"edit_posts = Mitwirkende, read = Jede/Jeder."
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:3
+msgid "Reset DB start date/time"
+msgstr "DB-Startzeitpunkt neu eingestellt"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:4
+msgid "DB clean-up"
+msgstr "DB aufräumen"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:5
+msgid "Data aggregation"
+msgstr "Datenaggregation"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:6
+msgid "Data table initialization"
+msgstr "Datentabelleninitialisierung"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:7
+msgid "Plugin update"
+msgstr "Plugin-Update"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:8
+msgid "Visit manually deleted"
+msgstr "Besuch manuell entfernt"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:40
+msgid "Event"
+msgstr "Ereignis"
+
+#: includes/admin/wp_visitorflow_settings_logfile.php:41
+msgid "Message"
+msgstr "Mitteilung"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:16
+msgid "Do you really want to reset bots and exlusions counters?"
+msgstr ""
+"Sollen die Zähler für Bots und Ausnahmen wirklich zurückgesetzt werden?"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:17
+#: includes/admin/wp_visitorflow_settings_maintenance.php:53
+#: includes/admin/wp_visitorflow_settings_maintenance.php:121
+#: includes/admin/wp_visitorflow_settings_maintenance.php:147
+#: includes/admin/wp_visitorflow_settings_maintenance.php:206
+msgid "ATTENTION: There will be no second question."
+msgstr "ACHTUNG: Es wird nicht noch einmal gefragt werden."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:22
+#: includes/admin/wp_visitorflow_settings_maintenance.php:58
+#: includes/admin/wp_visitorflow_settings_maintenance.php:126
+#: includes/admin/wp_visitorflow_settings_maintenance.php:152
+#: includes/admin/wp_visitorflow_settings_maintenance.php:211
+msgid "Yes, do it!"
+msgstr "Ja, los!"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:40
+#, php-format
+msgid "%s bot and exclusion counters reset to zero."
+msgstr "%s Bots- und Ausnahmen-Zähler wurden auf Null gesetzt."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:51
+#, php-format
+msgid "Do you really want to delete all statistics data older than %s?"
+msgstr "Sollen wirklich alle Statistik-Daten älter als %s gelöscht werden?"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:70
+#, php-format
+msgid "%s page views older than %s cleaned."
+msgstr "%s Seitenaufrufe älter als %s gelöscht."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:81
+#: includes/functions/wp_visitorflow_functions.php:184
+#, php-format
+msgid "%s pages older than %s cleaned."
+msgstr "%s Seiten älter als %s gelöscht."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:91
+#: includes/functions/wp_visitorflow_functions.php:196
+#, php-format
+msgid "%s visits older than %s cleaned."
+msgstr "%s Besuche älter als %s gelöscht."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:95
+#: includes/functions/wp_visitorflow_functions.php:202
+#, php-format
+msgid "%s meta entries older than %s cleaned."
+msgstr "%s Metadaten älter als %s gelöscht."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:99
+#, php-format
+msgid "%s aggregation entries older than %s cleaned."
+msgstr "%s aggregierte Daten älter als %s gelöscht."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:119
+#, php-format
+msgid "Do you really want to delete all HTTP User Agent strings older than %s?"
+msgstr ""
+"Sollen wirklich alle HTTP User-Agent-Strings älter als %s gelöscht werden?"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:137
+#, php-format
+msgid "%s user agent strings removed from database."
+msgstr "%s User-Agent-Strings aus der Datenbank entfernt."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:146
+msgid "Do you really want to restart the data aggregation process?"
+msgstr "Sollen die Datenaggregation wirklich neu gestartet werden?"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:177
+#, php-format
+msgid "Data aggregration completed until %s."
+msgstr "Datenaggregation abeschlossen bis zum %s."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:185
+msgid "Continue"
+msgstr "Weitermachen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:187
+msgid ""
+"Data aggretion takes some time. Please press \"continue\" button until taks "
+"is completed."
+msgstr ""
+"Die Datenaggregation benötigt einige Zeit. Bitte auf den \"Weiter\"-Button "
+"klicken für den nächsten Abschnitt."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:194
+msgid "Restart of the data aggregation completed."
+msgstr "Der Neustart der Datenaggregation ist abgeschlossen."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:205
+msgid "Do you really want to restart the database update process?"
+msgstr "Soll das Datenbank-Update wirklich neu gestartet werden?"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:222
+msgid "Database update process completed."
+msgstr "Datenbank-Update beendet."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:258
+msgid "Clean-Up Database"
+msgstr "Datenbank aufräumen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:268
+#: includes/admin/wp_visitorflow_settings_maintenance.php:271
+msgid "Reset counters"
+msgstr "Zähler zurück setzen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:272
+msgid "Resets the counters for bot visits and page view exclusions."
+msgstr "Zähler für Bots und Ausnahmen bei den Seitenaufrufen zurück setzen."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:293
+msgid "Clear all statistics data"
+msgstr "Alle Statistik-Daten löschen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:296
+#: includes/admin/wp_visitorflow_settings_maintenance.php:324
+msgid "older than"
+msgstr "älter als"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:298
+msgid ""
+"Delete all entries in the WP VisitorFlow data base older than the selected "
+"date."
+msgstr ""
+"Lösche alle Einträge in der WP VisitorFlow Datenbank, die älter als das "
+"ausgewählte Datum sind."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:299
+msgid "Clear Data"
+msgstr "Daten löschen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:321
+msgid "Clear HTTP User Agents strings"
+msgstr "Lösche HTTP-User-Agent-Strings"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:326
+msgid "Clear HTTP UA Strings"
+msgstr "Lösche HTTP-UA-Strings"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:327
+msgid "Delete all HTTP User Agent strings stored before the selected date."
+msgstr ""
+"Lösche alle HTTP-User-Agent-Strings, die vor dem ausgewählten Datum "
+"gespeichert wurden."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:328
+msgid ""
+"The user agent strings are no mandatory data. So if you do not need them "
+"anymore (e.g. to identify crawlers and search engines), it is safe to clear "
+"these strings."
+msgstr ""
+"Die User-Agent-Strings sind keine notwendigen Daten. Wenn sie nicht mehr "
+"gebraucht werden (z.B. um neue Crawler oder Suchmaschinen zu "
+"identifizieren), können diese Daten problemlos gelöscht werden."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:349
+#: includes/admin/wp_visitorflow_settings_maintenance.php:356
+msgid "Trigger Data Aggregation"
+msgstr "Datenaggregation anstoßen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:353
+msgid "Restart data aggregation."
+msgstr "Datenaggregation neu starten"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:357
+msgid ""
+"Restart the data aggregation, e.g. in case of inconsistencies/missing data "
+"in the timelines."
+msgstr ""
+"Neustart der Datenaggregation, z.B. im Fall von Inkonsistenzen bzw. "
+"fehlender Datenpunkte in den Zeitreihen."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:377
+#: includes/admin/wp_visitorflow_settings_maintenance.php:384
+msgid "Trigger Installer"
+msgstr "Installer anstoßen"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:381
+msgid "Update DB tables."
+msgstr "Datenbank-Tabellen updaten"
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:385
+msgid ""
+"Restart the update process for the database tables, e.g. in case of "
+"inconsistancies or interrupted update mechanisms."
+msgstr ""
+"Neustart des Datenbank-Tabellen-Updates, z.B. im Falle von Inkonsistenzen "
+"oder einem abgebrochenen Update-Prozesses."
+
+#: includes/admin/wp_visitorflow_settings_maintenance.php:386
+msgid ""
+"Data will not be affected or changed. However, it is always a safe option to "
+"backup the database before any change on its structure is performed."
+msgstr ""
+"Daten werden dabei nicht verändert. Es ist jedoch immer  sicherer, zuvor von "
+"der Datenbank ein Backup zu machen."
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:35
+msgid "IP Addresses"
+msgstr "IP-Adressen"
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:39
+msgid "Anonymize IP addresses"
+msgstr "IP-Adressen anonymisieren"
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:44
+msgid "Anonymize IP addresses of remote clients by encryption."
+msgstr "Anonymisiere die IP-Adresse von Endgeräten durch Verschlüsselung."
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:45
+msgid ""
+"This option is recommended to fulfill data privacy rules in several "
+"countries."
+msgstr ""
+"Diese Einstellung ist empfehlenswert, um die Datenschutbestimmungen "
+"verschiedener Länder inkl. Deutschlands zu erfüllen."
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:46
+msgid "Be aware: Once encrypted, the stored IP addresses cannot be restored."
+msgstr ""
+"Aber Achtung: Einmal verschlüsselt lassen sich gespeicherte IP-Adressen "
+"nicht mehr entschlüsseln."
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:62
+#: includes/functions/wp_visitorflow_getLatestUAStringsTable.php:29
+msgid "HTTP User Agent String"
+msgstr "HTTP User-Agent-String"
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:66
+msgid "Store HTTP User Agent String"
+msgstr "Speichere HTTP-User-Agent-String"
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:71
+msgid ""
+"Store the full HTTP User Agent string submitted by remote clients. This "
+"information can be helpful in the idenditification of crawlers and search "
+"engines."
+msgstr ""
+"Speichere den vollen HTTP-User-Agent-String, wie er von Endgeräten "
+"übermittelt wird. Diese Information kann hilfreich sein, um damit bisher "
+"unbekannte Crawler oder Suchmaschinen zu indentifizieren."
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:72
+msgid "This option leads to a lot of additional data."
+msgstr "Diese Einstellung führt zu einer Menge zusätzlich gespeicherter Dateb."
+
+#: includes/admin/wp_visitorflow_settings_privacy.php:73
+msgid "On the other hand, this data can easily be deleted again later."
+msgstr ""
+"Andererseits können diese Daten auf einfache Weise wieder gelöscht werden "
+"(s. Wartung)."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:90
+msgid "Exclude Remote Clients"
+msgstr "Schließe Remote-Clients aus"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:93
+msgid "Exclude Detected Bots"
+msgstr "Schließe identifizierte Bots aus"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:97
+msgid "Exclude bots, crawlers, web spiders etc. from the statistics."
+msgstr "Schließe Bots, Crawlers, Web Spiders etc. aus der Statistik aus."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:102
+msgid "Exclude empty UA strings"
+msgstr "Schließe leere HTTP-UA-Strings aus"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:106
+msgid ""
+"Exclude remote clients that do not submit any HTTP User Agent string from "
+"the statistics."
+msgstr ""
+"Remote-Clients, die keinen HTTP-User-Agent-String übermitteln, werden von "
+"der Statistik ausgeschlossen."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:107
+msgid ""
+"If the HTTP User Agent string is not submitted, this is usually a fair "
+"indication that the visitor is not a human being and/or did supresses the "
+"submission by purpose."
+msgstr ""
+"Wenn der HTTP-User-Agent-String nicht übermittelt wird, ist dies in der "
+"Regel ein sicherer Hinweis darauf, dass der Besucher nicht menschlich ist "
+"bzw. dass er/sie mit Absicht diese Übermittlung blockiert."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:113
+msgid "UA string exclusion list"
+msgstr "UA-String-Ausschlussliste"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:121
+msgid ""
+"Any remote client with a HTTP User Agent that includes one of the text "
+"strings in this list will be excluded from the statistics."
+msgstr ""
+"Alle Remote-Clients mit HTTP-User-Agent-Strings, die einen der Textbausteine "
+"aus der Liste enthalten, werden von der Statistik ausgeschlossen."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:122
+#: includes/admin/wp_visitorflow_settings_storing.php:159
+msgid ""
+"You can edit the list and/or include new text strings at the end of the "
+"list. One string per line."
+msgstr ""
+"Die Liste kann bearbeitet werden und neue Textbausteine angefügt werden. Ein "
+"Textbaustein pro Zeile."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:138
+msgid "Exclude WordPress Pages"
+msgstr "Schließe WordPress-Seiten aus"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:141
+msgid "Exclude 404 error pages"
+msgstr "Schließe 404-Fehlerseiten aus"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:145
+msgid "Exclude non-existent pages/files, which lead to a 404 error page."
+msgstr ""
+"Schließe nicht-existierende Seiten/Dateien aus, die zu einer 404-Fehlerseite "
+"führen."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:150
+msgid "Pages URL exclusion list"
+msgstr "Seiten-URL-Auschlussliste"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:158
+msgid ""
+"Any page URL that includes one of the text strings in this list will be "
+"excluded from the statistics."
+msgstr ""
+"Alle Seiten mit einer URL, die einen der Textbausteine in der Liste "
+"enthalten, werden von der Statistik ausgeschlossen."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:175
+msgid "Include WordPress Users"
+msgstr "Schließe WordPress-Benutzer ein"
+
+#: includes/admin/wp_visitorflow_settings_storing.php:189
+#, php-format
+msgid "Include role \"%s\" in the statistics."
+msgstr "Schließe die Rolle \"%s\" in die Statistik mit ein."
+
+#: includes/admin/wp_visitorflow_settings_storing.php:199
+msgid ""
+"By default, the visitor flow (page views) of logged-in WordPress user is not "
+"recorded. You can include logged-in WordPress user with various roles to the "
+"statistics."
+msgstr ""
+"Voreingestellt wird der Benutzerfluss (Seitenaufrufe) von eingeloggten "
+"WordPress-Benutzern nicht gespeichert. Eingeloggte WordPress-Benutzer mit "
+"verschiedenen Rollen können in die Statistik mit eingeschlossen werden."
+
+#: includes/admin/wp_visitorflow_singlepage_timeline.php:72
+msgid "Development of Page Views within the Selected Timeframe"
+msgstr "Zeitliche Entwicklung der Seitenaufrufe im ausgewählten Zeitraum"
+
+#: includes/admin/wp_visitorflow_website_pages.php:135
+msgid "Sum of all page views"
+msgstr "Summe aller Seitenaufrufe"
+
+#: includes/admin/wp_visitorflow_website_pages.php:215
+#, php-format
+msgid "The %s Most Visited Pages within the Selected Timeframe"
+msgstr ""
+"Die %s am häufigsten innerhalb des ausgewählten Zeitraums aufgerufenen "
+"Seiten "
+
+#: includes/admin/wp_visitorflow_website_pages.php:228
+msgid "Development of Top Page Views within the Selected Timeframe"
+msgstr ""
+"Zeitliche Entwicklung der Top-Seitenaufrufe innerhalb des ausgewäglten "
+"Zeitraums"
+
+#: includes/admin/wp_visitorflow_website_pages.php:244
+msgid "Top Page Views over Time of the Day"
+msgstr "Verteilung der Top-Seitenaufrufe über die Tageszeit"
+
+#: includes/admin/wp_visitorflow_website_pages.php:245
+#: includes/admin/wp_visitorflow_website_referrers.php:264
+#, php-format
+msgid "Data from %s to %s"
+msgstr "Daten vom %s bis %s"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:137
+msgid "Sum of all referrer pages"
+msgstr "Summe aller verweisenden Seiten"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:216
+#, php-format
+msgid "%s Top Referrers within the Selected Timeframe"
+msgstr "%s Top-Referrers innerhalb des ausgewählten Zeitraums"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:219
+msgid "Counts"
+msgstr "Anzahl"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:220
+msgid "Referrer"
+msgstr "Referrer"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:229
+msgid "Search Engine Summary"
+msgstr "Suchmaschinen-Zusammenfassung"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:248
+msgid "Development of Top Referrers within the Selected Timeframe"
+msgstr ""
+"Zeitliche Entwicklung der Top-Referrer innerhalb des ausgewählten Zeitraums"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:263
+msgid "Top Referrers over Time of the Day"
+msgstr "Verteilung der Top-Referrer über die Tageszeit"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:309
+msgid "Latest Search Key Words"
+msgstr "Letzte Suchmaschinen-Suchbegriffe"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:355
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:30
+msgid "Keywords"
+msgstr "Suchbegriffe"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:356
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:29
+msgid "Search Engine"
+msgstr "Suchmaschine"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:357
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:31
+msgid "Target"
+msgstr "Ziel"
+
+#: includes/admin/wp_visitorflow_website_referrers.php:359
+#: includes/admin/wp_visitorflow_website_visitors.php:319
+msgid "Last visit"
+msgstr "Letzter Besuch "
+
+#: includes/admin/wp_visitorflow_website_visitors.php:55
+msgid "Do you really want to delete this visit from database?"
+msgstr "Soll dieser Seitenbesuch wirklich aus der Datenbank entfernt werden?"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:64
+msgid "Yes, delete it!"
+msgstr "Ja, löschen!"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:76
+#, php-format
+msgid "%s visit deleted."
+msgstr "%s Besucher entfernt."
+
+#: includes/admin/wp_visitorflow_website_visitors.php:79
+#, php-format
+msgid "%s page views deleted."
+msgstr "%s Seitenaufrufe entfernt."
+
+#: includes/admin/wp_visitorflow_website_visitors.php:160
+msgid "Delete"
+msgstr "Entfernen"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:177
+msgid "User Agents and Operation Systems Used within the Selected Timeframe"
+msgstr "User-Agents und Betriebssysteme innerhalb des ausgewählten Zeitraums"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:183
+#: includes/admin/wp_visitorflow_website_visitors.php:199
+#: includes/admin/wp_visitorflow_website_visitors.php:215
+#: includes/admin/wp_visitorflow_website_visitors.php:231
+#: includes/functions/wp_visitorflow_jqplot_piechart.php:20
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:203
+msgid "Agent Engines"
+msgstr "Agent-Engines"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:235
+msgid "Agents/Operation Systems"
+msgstr "Agents/Betriebssysteme"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:276
+msgid "Visitors per day"
+msgstr "Besucher pro Tag"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:285
+msgid "Development of Visitors within the Selected Timeframe"
+msgstr "Zeitliche Entwicklung der Besucher pro Tag  im ausgewählten Zeitraum"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:299
+#, php-format
+msgid "Visitors since %s (since %s)"
+msgstr "Besucher seit dem %s (seit %s)"
+
+#: includes/admin/wp_visitorflow_website_visitors.php:318
+msgid "Count"
+msgstr "Anzahl"
+
+#: includes/classes/wp_list-table.class.php:147
+msgid "List View"
+msgstr "Listendarstellung"
+
+#: includes/classes/wp_list-table.class.php:148
+msgid "Excerpt View"
+msgstr "Auswahl-Ansicht"
+
+#: includes/classes/wp_list-table.class.php:317
+msgid "No items found."
+msgstr "Keine Einträge gefunden."
+
+#: includes/classes/wp_list-table.class.php:443
+msgid "Select bulk action"
+msgstr ""
+
+#: includes/classes/wp_list-table.class.php:445
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/classes/wp_list-table.class.php:455
+msgid "Apply"
+msgstr "Anwenden"
+
+#: includes/classes/wp_list-table.class.php:505
+#: includes/classes/wp_list-table.class.php:1266
+msgid "Show more details"
+msgstr "Zeige mehr Details"
+
+#: includes/classes/wp_list-table.class.php:560
+msgid "Filter by date"
+msgstr "Nach Datum filtern"
+
+#: includes/classes/wp_list-table.class.php:562
+msgid "All dates"
+msgstr "Alle Daten"
+
+#. translators: 1: month name, 2: 4-digit year
+#: includes/classes/wp_list-table.class.php:575
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/classes/wp_list-table.class.php:634
+#: includes/classes/wp_list-table.class.php:646
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: includes/classes/wp_list-table.class.php:646
+msgid "No approved comments"
+msgstr ""
+
+#: includes/classes/wp_list-table.class.php:762
+msgid "First page"
+msgstr "Erste Seite"
+
+#: includes/classes/wp_list-table.class.php:772
+msgid "Previous page"
+msgstr "Vorige Seite"
+
+#: includes/classes/wp_list-table.class.php:779
+#: includes/classes/wp_list-table.class.php:782
+msgid "Current Page"
+msgstr "Aktuelle Seite"
+
+#: includes/classes/wp_list-table.class.php:795
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: includes/classes/wp_list-table.class.php:805
+msgid "Last page"
+msgstr "Letzte Seite"
+
+#: includes/classes/wp_list-table.class.php:1015
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: includes/classes/wp_visitorflow-page-metaboxes.class.php:141
+msgid "Rate us"
+msgstr "Bewerten mit"
+
+#: includes/classes/wp_visitorflow-page-metaboxes.class.php:144
+msgid "Support"
+msgstr "Hilfe-Forum"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:126
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:20
+msgid "Today"
+msgstr "Heute"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:127
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:21
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:128
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:22
+msgid "Last 7 days"
+msgstr "Letzte 7 Tage"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:129
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:23
+msgid "Last 14 days"
+msgstr "Letzte 14 Tage"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:130
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:24
+msgid "Last 30 days"
+msgstr "Letzte 30 Tage"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:131
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:25
+msgid "Last 60 days"
+msgstr "Letzte 60 Tage"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:132
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:26
+msgid "Last 365 days"
+msgstr "Letzte 365 Tage"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:168
+msgid "Start date:"
+msgstr "Start-Datum:"
+
+#: includes/classes/wp_visitorflow-page-timeframe.class.php:171
+msgid "End date:"
+msgstr "End-Datum:"
+
+#: includes/classes/wp_visitorflow.class.php:412
+msgid "Initial page \"unknown\" added to pages table"
+msgstr "Seite \"unknown\" zur Datenbanktabelle hinzugefügt"
+
+#: includes/classes/wp_visitorflow.class.php:425
+msgid "Initial page \"self\" added to pages table"
+msgstr "Seite \"self\" zur Datenbanktabelle hinzugefügt"
+
+#: includes/classes/wp_visitorflow.class.php:439
+msgid "Front page added to pages table"
+msgstr "Startseite zur Datenbanktabelle hinzugefügt"
+
+#: includes/classes/wp_visitorflow.class.php:467
+#, php-format
+msgid "New flow data start date = %s."
+msgstr "Neuer Startzeitpunkt  für Besucherflussdaten = %s."
+
+#: includes/classes/wp_visitorflow.class.php:478
+#, php-format
+msgid "New db data start date = %s."
+msgstr "Neuer Startzeitpunkt  für Datenbank = %s."
+
+#: includes/functions/wp_visitorflow_functions.php:171
+#, php-format
+msgid "%s page hits older than %s cleaned."
+msgstr "%s Seitenaufrufe älter als der %s entfernt."
+
+#: includes/functions/wp_visitorflow_functions.php:228
+msgid "months"
+msgstr "Monate"
+
+#: includes/functions/wp_visitorflow_functions.php:230
+msgid "days"
+msgstr "Tagen"
+
+#: includes/functions/wp_visitorflow_functions.php:232
+msgid "hours"
+msgstr "Stunden"
+
+#: includes/functions/wp_visitorflow_functions.php:234
+msgid "minutes"
+msgstr "Minuten"
+
+#: includes/functions/wp_visitorflow_getBotsTable.php:46
+msgid "Bot/Crawler Name"
+msgstr "Bot-/Crawler-Name"
+
+#: includes/functions/wp_visitorflow_getBotsTable.php:47
+msgid "Hits"
+msgstr "Aufrufe"
+
+#: includes/functions/wp_visitorflow_getBotsTable.php:48
+msgid "Hits per Day"
+msgstr "Aufrufe pro Tag"
+
+#: includes/functions/wp_visitorflow_getBotsTable.php:49
+msgid "Last Hit"
+msgstr "Letzter Aufruf"
+
+#: includes/functions/wp_visitorflow_getBotsTable.php:53
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:184
+#: includes/functions/wp_visitorflow_getLatestUAStringsTable.php:57
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:77
+msgid "Table still empty."
+msgstr "Tabelle noch leer."
+
+#: includes/functions/wp_visitorflow_getBotsTable.php:102
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:191
+msgid "Show all"
+msgstr "Zeige alles"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:12
+msgid "Property"
+msgstr "Eigenschaft"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:13
+msgid "Value"
+msgstr "Wert"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:16
+msgid "Database start date"
+msgstr "Start der Datenbank"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:25
+msgid "Flow data start date"
+msgstr "Start der Besucherfluss-Daten"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:35
+msgid "Number of visits"
+msgstr "Anzahl der Besucher"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:39
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:48
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:57
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:66
+msgid "per day"
+msgstr "pro Tag"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:44
+msgid "Number of page views"
+msgstr "Anzahl der Seitenaufrufe"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:62
+msgid "Excluded page views"
+msgstr "Ausgeschlossene Seitenaufrufe"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:70
+msgid "Number of internal pages"
+msgstr "Anzahl interner Seiten"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:74
+msgid "Number of external pages (referrers)"
+msgstr "Anzahl externer/verweisender Seiten"
+
+#: includes/functions/wp_visitorflow_getDBOverviewTable.php:78
+msgid "Recorded HTTP User Agent strings"
+msgstr "Aufgezeichnete HTTP User-Agent-Strings"
+
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:18
+msgid "Reason for Exclusion"
+msgstr "Grund des Ausschlusses"
+
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:20
+msgid "Page Views per Day"
+msgstr "Seitenaufrufe pro Tag"
+
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:21
+msgid "Last View"
+msgstr "Letzter Aufruf"
+
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:149
+msgid "404 errors"
+msgstr "404-Fehlerseiten"
+
+#: includes/functions/wp_visitorflow_getExlusionsTable.php:174
+msgid "Self-referrers"
+msgstr "Eigenaufruf"
+
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:32
+msgid "Show me the Visitor Flow for"
+msgstr "Zeig mir den Besucherfluss für"
+
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:46
+msgid "Where are my visitors coming from? "
+msgstr "Woher kommen meine Seitenbesucher?"
+
+#: includes/functions/wp_visitorflow_getQuickAnswers.php:60
+msgid "What are my most viewed posts or pages? "
+msgstr "Was sind meine am häufigsten aufgerufenen Beiträge oder Seiten?"
+
+#: includes/functions/wp_visitorflow_getSEKeywordsTable.php:28
+msgid "Time"
+msgstr "Zeit"
+
+#: includes/functions/wp_visitorflow_jqplot_piechart.php:29
+msgid "Others"
+msgstr "Andere"
+
+#: includes/functions/wp_visitorflow_jqplot_plot.php:65
+msgid "%d-%b %y"
+msgstr "%d-%b %y"
+
+#: includes/functions/wp_visitorflow_print_flow.php:16
+msgid "Flow of a Single Visitor"
+msgstr "Fluss eines einzelnen Besuchers"
+
+#: wp-visitorflow.php:49
+#, php-format
+msgid ""
+"The WP VisitorFlow plugin requires at least PHP version %s, but installed is "
+"version %s."
+msgstr ""
+"WP VisitorFlow erfordert mindestens eine  PHP-Version %s, installiert ist "
+"aber nur Version %s."
+
+#: wp-visitorflow.php:78
+msgid ""
+"An error occured during installation/update of the WP VisitorFlow plugin."
+msgstr ""
+"Während der Installation/des Updates von WP VisitorFlow ist ein Fehler "
+"aufgetreten."
+
+#, fuzzy
+#~ msgid "Filter items:"
+#~ msgstr "Erster Schritt"
+
+#~ msgid "Data aggregated for date %s"
+#~ msgstr "Daten des Tages %s aggregiert."
+
+#~ msgid "Store HTTP User Agent"
+#~ msgstr "Speichere den HTTP-User-Agent-String"
+
+#~ msgid "Storing Options"
+#~ msgstr "Speicherung"
+
+#~ msgid "Welcome to VisitorFlow"
+#~ msgstr "Willkommen bei VisitorFlow"

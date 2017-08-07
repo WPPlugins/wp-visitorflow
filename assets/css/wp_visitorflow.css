@@ -1,0 +1,462 @@
+/*-----------------------------------------------------------------
+  - Two column layout
+  -----------------------------------------------------------------*/
+div.twocol_left {
+	width:39%;
+	float:left;
+}
+div.twocol_right {
+	width:59%;
+	float:right;
+}
+
+div.max_width {
+	width:1600px;
+}
+
+
+@media all and (max-width: 1400px) {
+	div.twocol_left {
+		width:49%;
+	}
+	div.twocol_right {
+		width:49%;
+	}
+}
+
+@media all and (max-width: 800px) {
+	div.twocol_left {
+		width:100%;
+		float:none;
+		display:block;
+	}
+	div.twocol_right {
+		width:100%;
+		float:none;
+		display:block;
+	}
+}
+	  
+/*-----------------------------------------------------------------
+  - Links
+  -----------------------------------------------------------------*/
+a.wpvf {
+  color: #1050c0;
+  text-decoration: none;
+}
+a.wpvf:hover {
+  color: #71a5be;
+  text-decoration: none;
+}
+a.wpvf:visited {
+  color: #1050c0;
+  text-decoration: none;
+}
+a.wpvf:hover:visited {
+  color: #71a5be;
+  text-decoration: none;
+}
+
+a.wpvfflow:after {
+   padding-right: 0.5em;
+   font-family: "dashicons";
+   content: "\f503";
+}
+
+a.wpvfchart:after {
+   padding-right: 0.5em;
+   font-family: "dashicons";
+   content: "\f238";
+}
+
+a.wpvfpage:after {
+   padding-left:0.2em;
+   font-family: "dashicons";
+   content: "\f103";
+}
+
+
+a.wpvfextern:after {
+   font-family: "dashicons";
+   padding-left:0.2em;
+   content: "\f242";
+}
+
+/*-----------------------------------------------------------------
+  - Page Menu Links
+  -----------------------------------------------------------------*/
+a.wpvf-menulink  {
+	float: left;
+	padding: 0.5em;
+	margin-top:0px;
+	margin-right:0.5em;
+	margin-bottom:0.2em;
+	margin-left:0em;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	background-color: #e8e8e8;
+	color: #000;
+	font-weight: 600;
+	text-decoration: none;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+    		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	white-space: nowrap;
+}
+
+a.wpvf-menulink:hover {
+  background-color: #038acc;
+  color: #fff;
+  text-decoration: none;
+}
+
+.wpvf-menulink-active {
+	float: left;
+	padding: 0.5em;
+	margin-top:0px;
+	margin-right:0.5em;
+	margin-bottom:0.2em;
+	margin-left:0em;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	background-color: #039be6;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+a.wpvf-menulink-active:hover {
+  background-color: #038acc;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------
+  - Tab Navigation Bar
+  -----------------------------------------------------------------*/
+.wpvf-nav-tab {
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 0.5em; 
+	padding: 5px 10px;
+	border-bottom: none;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	font-size: 105%;
+	background-color: #e8e8e8;
+	color: #000;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.wpvf-nav-tab:hover,
+.wpvf-nav-tab:focus,
+.wpvf-nav-tab-active:hover {
+	background-color: #038acc;
+	color: #fff;
+}
+
+.wpvf-nav-tab-active,
+.wpvf-nav-tab:focus:active {
+	background-color: #039be6;
+	border-bottom: 1px solid #eee;
+	margin-bottom: -1px;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+	color: #fff;
+}
+
+h2.wpvf-nav-tab-wrapper  {
+	border-bottom: 1px solid #22749a;
+	margin: 0;
+	padding: 9px 0 0 15px;
+	line-height: inherit;
+}
+
+/* contain floats */
+.wpvf-nav-tab-wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*-----------------------------------------------------------------
+  - Info Boxes
+  -----------------------------------------------------------------*/
+div.wpvf_info {
+	display: inline-block;
+	width:15%;
+	background-color: #578dbd; 
+	padding-left:0.5em;
+	padding-right:0.5em;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin-top:0;
+	margin-bottom:1%;
+	margin-right:1%;
+	border-left:8px solid #49779f;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+    		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	font-weight:normal;
+	color:#fff;
+	text-align:right;
+}
+
+div.wpvf_info_blue {
+	background-color: #578dbd;
+	border-left:8px solid #49779f;
+}
+
+div.wpvf_info_darkblue {
+	background-color: #49779f;
+	border-left:8px solid #3e6486; 
+}
+
+div.wpvf_info_darkerblue {
+	background-color: #3e6486;
+	border-left:8px solid #345471; 
+}
+
+div.wpvf_info_pink {
+	background-color: #8775a6; 
+	border-left:8px solid #6c5e85;
+}
+
+div.wpvf_info_darkpink {
+	background-color: #6c5e85; 
+	border-left:8px solid #5b4f70;
+}
+
+div.wpvf_info_darkerpink {
+	background-color: #5b4f70; 
+	border-left:8px solid #4d435e;
+}
+
+div.wpvf_info_green {
+	background-color: #43b5ad; 
+	border-left:8px solid #36918b;
+}
+
+div.wpvf_info_red {
+	background-color: #e25a59; 
+	border-left:8px solid #b64847;
+}
+
+div.wpvf_info_darkred {
+	background-color: #b64847; 
+	border-left:8px solid #993d3c;
+}
+
+.wpvf_info_title {
+	font-size: 250%;
+	color:#fff;
+}
+
+.wpvf_info_arrow {
+	margin-top:-0.1em;
+	margin-left:0.1em;
+	font-size: 250%;
+	height:0.8em;
+	float:right;
+}
+
+div.wpvf_info_mobile {
+	width: 40%;
+	margin-right:2%;
+	margin-bottom:2%;
+
+}
+
+.wpvf_info_title_mobile {
+	font-size: 200%;
+	color:#fff;
+}
+
+.wpvf_info_arrow_mobile {
+	margin-top:-0.1em;
+	margin-left:0.1em;
+	font-size: 250%;
+	height:0.8em;
+	float:right;
+}
+
+/*-----------------------------------------------------------------
+  - White Background Area
+  -----------------------------------------------------------------*/
+.wpvf-background {
+	background-color:#fff;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+    		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	padding:0.3em;
+}
+
+/*-----------------------------------------------------------------
+  - Message-Box
+  -----------------------------------------------------------------*/
+.wpvf_message {
+	display: inline-block;
+	width: auto;
+	background-color: #fff;
+	padding:0.5em;
+	margin-bottom:1em;
+	border-left:8px solid #080;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+    		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	font-weight:normal;
+	color:#030;
+}
+
+/*-----------------------------------------------------------------
+  - Warning-Box
+  -----------------------------------------------------------------*/
+div.wpvf_warning {
+	display: inline-block;
+	width: auto;
+	background-color: #fff;
+	padding:0.5em;
+	margin-bottom:1em;
+	border-left:8px solid #f00;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+    		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	font-weight:600;
+	color:#600;
+}
+
+/*-----------------------------------------------------------------
+  - WPVF Table 
+  -----------------------------------------------------------------*/
+table.wpvftable {
+}
+table.wpvftable-background {
+	background-color:#fff;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+    		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+}
+table.wpvftable tr {
+	background-color: #fff;
+	vertical-align:top;
+}
+table.wpvftable tr.darker {
+}
+table.wpvftable th.wpvftable-title {
+	border:0;
+	font-size:120%;
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:1em;
+}
+
+table.wpvftable th {
+	background-color: #fff;
+	vertical-align:top;
+	border-bottom:1px solid #ddd;
+	padding:0.3em;
+	color: #444;
+	font-weight: 600;
+	font-size:105%;
+}
+table.wpvftable td {
+	vertical-align:top;
+	border-bottom:1px solid #eee;
+	padding:0.5em 2em;
+}
+table.wpvftable tr.right, td.right {
+	text-align:right;
+}
+
+/*-----------------------------------------------------------------
+  - WPVF TimeFrame-Menu 
+  -----------------------------------------------------------------*/
+table.wpvfmenutable {
+	margin-bottom:4px;
+	background-color: #e8e8e8;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+     		box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.15);
+}
+table.wpvfmenutable tr {
+	padding:0;
+	margin:0;
+}
+table.wpvfmenutable th {
+	vertical-align:top;
+	text-align:center;
+	padding:0;
+	background-color: #e8e8e8;
+	color: #000;
+}
+table.wpvfmenutable td {
+	vertical-align:top;
+	padding:0.3em;
+	margin:0;
+	background-color: #e8e8e8;
+	color: #000;
+}
+table.wpvfmenutable td:hover {
+	background-color: #038acc;
+	color: #fff;
+}
+table.wpvfmenutable td.active {
+	background-color: #039be6;
+	color: #fff;
+}
+table.wpvfmenutable td.inactive {
+	background-color: #ccc;
+	color: #888;
+}
+table.wpvfmenutable td.border {
+	font-weight:600;
+		margin:0;
+}
+table.wpvfmenutable td.border_active {
+	background-color: #039be6;
+	color: #fff;
+	font-weight:600;
+}
+table.wpvfmenutable td.nohover:hover {
+	background-color: #e8e8e8;
+	color: #000;	
+}
+
+table.wpvfmenutable td a,
+table.wpvfmenutable td.border a,
+table.wpvfmenutable td.border:visited a
+{
+	color: #000;
+}
+
+table.wpvfmenutable td.border:hover a,
+table.wpvfmenutable td.border:visited:hover a,
+table.wpvfmenutable td.border_active a,
+table.wpvfmenutable td.border_active:hover a,
+table.wpvfmenutable td.border_active:visited a,
+table.wpvfmenutable td.border_active:visited:hover a
+{
+	color: #fff;
+}
